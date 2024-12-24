@@ -1,0 +1,140 @@
+@import "../vars.css";
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(25,55,109,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px); /* Add blur effect for modern look */
+    
+    
+
+}
+
+.navbar:hover {
+    background-color: rgb(25, 55, 109); /* Slightly darker shade on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 40px;
+    color: var(--color-text);
+}
+
+.listhere{
+    display: flex;
+}
+
+.listitems{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.listitems a{
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0; /* Start hidden */
+    visibility: hidden; /* Start hidden */
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: lightsalmon;
+    color: black;
+    
+    transform: translateY(-3px); /* Add slight lift on hover */
+}
+
+.back-to-top.show {
+    opacity: 1; /* Make button visible */
+    visibility: visible; /* Make button visible */
+}
+
+.back-to-top:active {
+    transform: translateY(-5px); /* Add slight depress on click */
+}
+
+.img1 {
+    display: none;
+}
+
+
+@media screen and (max-width: 830px) {
+    .back-to-top {
+        bottom: 15px; /* Adjust position for small screens */
+        right: 15px; /* Adjust position for small screens */
+        padding: 8px 16px; /* Adjust padding for small screens */
+        font-size: 20px; /* Adjust font size for small screens */
+    }
+}
+
+@media screen and (max-width:830px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .listhere{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+    .img1{
+        display: block;
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+    }
+    .listitems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background:linear-gradient(0deg,rgba(25,55,109,0.2) 0%,rgba(25,55,109,1) 100%);
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0 0 0 0.25);
+    }
+    .menuOpen{
+        display: flex;
+        z-index: 1;
+    }
+}

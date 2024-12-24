@@ -1,0 +1,26 @@
+[
+    {
+        "title":"Fast api Blog",
+        "imageSrc":"https://daxg39y63pxwu.cloudfront.net/images/blog/fastapi-projects/fastapi_projects.webp",
+        "description":"This is the Project made to learn the Latest technologies.",
+        "skills":["FastAPi","Python"],
+        "demo":"https://www.example.com",
+        "source":"https://www.github.com"
+    },
+    {
+        "title":"Hotel Room Booking",
+        "imageSrc":"https://www.shutterstock.com/image-vector/luxurious-inn-accommodation-booking-free-260nw-1591485067.jpg",
+        "description":"This is the Project made to learn the Latest technologies.",
+        "skills":["ReactJs","NodeJs","MongoDB_Atlas"],
+        "demo":"https://www.example.com",
+        "source":"https://www.github.com"
+    },
+    {
+        "title":"Shopping Screens",
+        "imageSrc":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCmWpYLzU2U2VfXKTRnbNTXLj83TwKP4OKi76i7L4AXhnZ1TpGIIqKD4fR_Q4bEwOsW4&usqp=CAU",
+        "description":"This is the Project made to learn the Latest technologies.",
+        "skills":["Flutter"],
+        "demo":"https://www.example.com",
+        "source":"https://www.github.com"
+    }
+]

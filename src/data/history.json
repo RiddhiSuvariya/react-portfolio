@@ -1,0 +1,26 @@
+[
+    {
+        "role":"Software Engineer",
+        "organisation":"Google",
+        "startDate":"Sept, 2022",
+        "endDate":"Present",
+        "experiance":["Worked on Google Map","Reduced load time"],
+        "imageSrc":"../assets/figma.png"
+    },
+    {
+        "role":"Software Engineer",
+        "organisation":"Google",
+        "startDate":"Sept, 2022",
+        "endDate":"Present",
+        "experiance":["Worked on Google Map","Reduced load time"],
+        "imageSrc":"history/python.png"
+    },
+    {
+        "role":"Software Engineer",
+        "organisation":"Google",
+        "startDate":"Sept, 2022",
+        "endDate":"Present",
+        "experiance":["Worked on Google Map","Reduced load time"],
+        "imageSrc":"history/python.png"
+    }
+]

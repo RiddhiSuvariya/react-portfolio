@@ -1,0 +1,141 @@
+/* Importing variables */
+@import "../vars.css";
+
+/* Contact container styles */
+.contact-container {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.contact-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #007BFF;
+    margin: 20px auto 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.contact-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.contact-details h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: white;
+}
+
+.contact-details p {
+    margin: 0;
+    color: #ccc;
+}
+
+.contact-footer {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-footer h2 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.contact-footer p {
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-links a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+.contact-footer strong {
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-item {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-icon {
+        margin-bottom: 10px;
+    }
+}
