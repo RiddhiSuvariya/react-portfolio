@@ -2,7 +2,7 @@
     {
         "title":"Fast api Blog",
         "imageSrc":"https://daxg39y63pxwu.cloudfront.net/images/blog/fastapi-projects/fastapi_projects.webp",
-        "description":"This is the Project made to learn the Latest technologies.",
+        "description":"This is the Project can crud operation using fast API in python",
         "skills":["FastAPi","Python"],
         "demo":"https://www.example.com",
         "source":"https://www.github.com"
@@ -10,7 +10,7 @@
     {
         "title":"Hotel Room Booking",
         "imageSrc":"https://www.shutterstock.com/image-vector/luxurious-inn-accommodation-booking-free-260nw-1591485067.jpg",
-        "description":"This is the Project made to learn the Latest technologies.",
+        "description":"This project for booking Room in Hotel and admin check detais ",
         "skills":["ReactJs","NodeJs","MongoDB_Atlas"],
         "demo":"https://www.example.com",
         "source":"https://www.github.com"
@@ -21,6 +21,30 @@
         "description":"This is the Project made to learn the Latest technologies.",
         "skills":["Flutter"],
         "demo":"https://www.example.com",
+        "source":"https://www.github.com"
+    },
+    {
+        "title":"Coffee Shop",
+        "imageSrc":"https://thenewyorkcityproject.wordpress.com/wp-content/uploads/2012/06/espresso2.jpg",
+        "description":"This Project for book coffee in cafeand can do crud operation too.",
+        "skills":["ASP.net Core"],
+        "demo":"https://www.example.com",
+        "source":"https://www.github.com"
+    },
+    {
+        "title":"Spam Dectector ",
+        "imageSrc":"https://png.pngtree.com/png-clipart/20230921/original/pngtree-icon-indicating-detection-of-red-spam-representing-the-phishing-scam-and-png-image_12720995.png",
+        "description":"This Project for detect email is spam or not",
+        "skills":["Python", "Machine Learning" , "Flask"],
+        "demo":"https://spam-detector-ow2h.onrender.com/",
+        "source":"https://www.github.com"
+    },
+    {
+        "title":"Stock Price predector",
+        "imageSrc":"https://dezyre.gumlet.io/images/resource/stock-price-prediction-data-science-project-with-source-code/Stock+Price+Prediction+with+Source+Code.png?w=600&dpr=1.3",
+        "description":"This Project for Predict price of stock market base on some perameter",
+        "skills":["Python", "Machine Learning" , "Stremlit"],
+        "demo":"https://stock-price-predictor-utytgzdjykgdb8h3rzy7cn.streamlit.app/",
         "source":"https://www.github.com"
     }
 ]
